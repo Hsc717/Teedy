@@ -273,7 +273,7 @@
             <id>aggregate</id>
             <inherited>false</inherited>
             <reports>
-              <report>aggregate-javadoc</report>
+              <report>aggregate</report>
             </reports>
           </reportSet>
         </reportSets>
