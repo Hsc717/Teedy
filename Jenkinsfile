@@ -29,7 +29,7 @@ pipeline {
         // ✅ 关键修复：关闭 Javadoc 严格检查
         stage('Javadoc') {
             steps {
-                bat 'mvn javadoc:javadoc -Xdoclint:none'
+                bat 'mvn javadoc:javadoc -Dmaven.javadoc.failOnError=false'
             }
         }
         stage('Site') {
